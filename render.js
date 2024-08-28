@@ -4,6 +4,10 @@ const rjs_ctx = canvas.getContext("2d");
 console.log("Made with render.js, the open source graphical library for javascript")
 console.log(document.currentScript.src)
 
+if (document.currentScript.src != "https://cdn.jsdelivr.net/gh/sapbotgit/render-js@main/render.js") {
+    console.log("WARNING: THIS PROJECT USING OUTDATED OR UNSUPPORTED VERSION OF RENDER.JS, GET NORMAL ONE IN https://github.com/sapbotgit/render-js")
+}
+    
 function rjs_clear(color) {
     rjs_ctx.fillStyle = color
     rjs_ctx.fillRect(0, 0, rjs_canvas.width, rjs_canvas.height)
