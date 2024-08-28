@@ -9,7 +9,7 @@ The open-source graphical library
   </head>
   <body>
     <canvas id="canvas" width="640" height="480"></canvas>
-    <script src="https://raw.githubusercontent.com/sapbotgit/render-js/main/render.js" type="text/plain"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sapbotgit/render-js@main/render.js" type="text/javascript"></script>
   </body>
 </html>
 ```
