@@ -12,8 +12,12 @@ if (document.currentScript.src != "https://cdn.jsdelivr.net/gh/sapbotgit/render-
     console.log("WARNING: THIS PROJECT USING OUTDATED OR UNSUPPORTED VERSION OF RENDER.JS, GET NORMAL ONE IN https://github.com/sapbotgit/render-js")
 }
 
+function rjs_colors() {
+    return new Array(16).fill(0).map((_, i) => i === 0 ? '#000' : `#${((1 << 24) * Math.random() | 0).toString(16)}`)
+}
+
 function rjs_pixel(x, y, col) {
-    rjs_ctx.fillStyle = color
+    rjs_ctx.fillStyle = col
     rjs_ctx.fillRect(x, y, 1, 1)
 }
 
@@ -23,8 +27,8 @@ function rjs_clear(color) {
 }
 
 function rjs_fullscreen() {
-    rjs_canvas.width = rjs_screenWidth
-    rjs_canvas.height = rjs_screenHeight
+    rjs_canvas.width = rjs_screenWidth - 30
+    rjs_canvas.height = rjs_screenHeight - 30
 }
 
 function rjs_resetsize() {
