@@ -9,7 +9,7 @@ The open-source graphical library
   </head>
   <body>
     <canvas id="canvas" width="640" height="480"></canvas>
-    <script src="https://raw.githubusercontent.com/sapbotgit/render-js/main/render.js" type="text/javascript"></script>
+    <script src="https://sapbotgit.github.io/render.js" type="text/javascript"></script>
   </body>
 </html>
 ```
@@ -25,7 +25,7 @@ The open-source graphical library
     </head>
     <body>
         <canvas id="canvas" width="640" height="480"></canvas><br><br>
-        <script src="https://raw.githubusercontent.com/sapbotgit/render-js/main/render.js" type="text/javascript"></script>
+        <script src="https://sapbotgit.github.io/render.js" type="text/javascript"></script>
         <a onclick="rjs_fullscreen()">Fullscreen</a>
         <a onclick="rjs_resetsize()">Reset size (Undo fullscreen)</a>
         <a onclick="rjs_clear('green')">Clear with green</a>
