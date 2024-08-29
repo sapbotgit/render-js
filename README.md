@@ -1,8 +1,8 @@
 # THIS IS WIP AND IT EVEN DONT FULLY WORK!
 # render-js
 The open-source graphical library
-## Getting started
-1. Make a new html file
+## Examples
+### Empty template
 ```
 <html>
   <head>
