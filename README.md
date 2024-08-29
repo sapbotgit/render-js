@@ -81,10 +81,9 @@ function draw() {
             rjs_pixel(i, j, colors[isMandelbrotSet ? 0 : (m % colors.length - 1) + 1])
         }
     }
-    alert("Successfully drawed!")
 }
+draw()
         </script>
-        <a onclick="draw()">Draw mandelbrot set</a>
     </body>
 </html>
 ```
